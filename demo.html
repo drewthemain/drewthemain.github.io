@@ -41,7 +41,7 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="edge.html">Edge</a></li>
-							<li><a href="demo.html">Demolition Express</a></li>
+							<li><a href="spellpunk.html">Spellpunk</a></li>
 							<li><a href="about_me.html">About Me</a></li>
 						</ul>
 					</nav>
@@ -49,9 +49,9 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Spellpunk</h1>
-							<span class="image main"><img src="images/fight2.png" alt="" /></span>
-							<p>I served as one of the two programmers on <a href = "https://sebastiangarda.itch.io/spellpunk">Spellpunk</a>, a game by a group of MSU students known as the Cyber Mages. We were tasked with six weeks to create a game inspired by another work of art: television, film, books, <i>anything</i>. After many ideas, we settled on combining the worlds of <i>Harry Potter</i> and <i>Blade Runner</i> to make something truly special. In this post, read about how I took charge on implementing design-friendly prefabs/scripts, as well as the work it took to get the games central choice working in code. Read ahead!</p>
+							<h1>Demolition Express</h1>
+							<span class="image main"><img src="images/grounded.png" alt="" /></span>
+							<p>On a game project comprised solely of programmers (it was quite a sight), I took the challenge of creating the destructible objects and systems behind the chaotic action of <a href = "https://david-khankin.itch.io/demolition-express">Demolition Express</a>. Created from the randomly generated string of words "Silly Bazooka Cowboy", my team focused on a simple gameplay loop of a wild-west demolition crew tasked to demolish abandoned buildings. However, the wackiness comes in the game's multi-character shifts: the player is able to launch a cowboy out of a human-sized rocket launcher, and after assuming the perspective of this now-flying cowboy, is able to take a perfect shot with the much more normal-sized bazooka. This two-step approach drove the design every step of the way and allows the player to create unique angles and shots for themselves. Read on to see how I set up and implemented the destruction that rounds off the game's core idea and brings the "demolition" in <i>Demolition Express</i>.</p>
 							<h3>It begins with a choice...</h3>
 							<p>A wizard, simply working on his spells, becomes trapped in a mysterious storm. It isn't until he falls from a yellow sky that he sees the Cyberpunk future he's been transported into, Dorothy-style. With his adrenaline pumping, he only has time to reach out and grab one of his spells: fire, wind, electricity, or ice. Which one does he grab?</p>
 							<p>It's this question that drove the games design since the initial pitch. What if, depending on which spell the player initally picks, the game plays out differently? This raised a slew of questions right away. Would this be too much? With only six weeks, we had to scope appropriately and a core mechanic like this seemed like a stretch. Even if it was possible, how would it work? Design-wise, we iterated until we landed on an idea we were happy with. The wizard would initally fall into a large hub that contains paths to every "level" of the game. Every level has a special obstacle before it that can be thwarted by each of the spells. Think of it like each spell being a "key" to unlock one of the levels, and at the end of every level you recieve a new key (spell). Therefore, depending on which spell you choose, the order and natural flow of the game plays out differently for each choice. With that in mind, a new question arose in my head: how was I going to create the systems needed to allow for this level of flexibility?</p>
